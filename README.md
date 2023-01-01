@@ -1,4 +1,4 @@
-# Hi, I'm Fred
-I’m a Research Scientist, and this is my Jekyll website.
+# Hi, I'm David Munechika
+I’m a Computer Science Student at Georgia Tech.
 
 Run with  `npm run start`
