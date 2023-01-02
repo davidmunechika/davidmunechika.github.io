@@ -60,7 +60,7 @@ title: Home
 </div>
 
 <h2 class="feature-title l-middle">
-	Past <a href="/dissertation">Internship Experience</a>
+	Past <a href="/cv#internships">Internship Experience</a>
 </h2>
 <div class="cover-wrapper l-screen">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}

@@ -47,7 +47,7 @@
   cv-group: 1
 
 - id: cv-web
-  description: Here's my resume
+  description: Here's my CV
   color: "#515151"
   class: "fa fa-address-card icon"
   url: "/cv"
