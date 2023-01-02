@@ -8,7 +8,7 @@ authors:
     - Nilaksh Das
     - Madhuri Shanbhogue
     - Shang-Tse Chen
-    - Fred Hohman
+    - David Munechika
     - Siwei Li
     - Li Chen
     - Michael E. Kounavis

@@ -1,32 +1,32 @@
 - id: home
-  description: "fredhohman.com"
+  description: "davidmunechika.com"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://fredhohman.com"
+  url: "https://davidmunechika.com"
   on-homepage: false
   cv-group: 1
 
 - id: email
-  description: "fredhohman@gatech.edu"
+  description: "davidmunechika@gatech.edu"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:fredhohman@gatech.edu"
+  url: "mailto:david.munechika@gatech.edu"
   on-homepage: true
   cv-group: 1
 
 - id: twitter
-  description: "@fredhohman"
+  description: "@davidmunechika"
   color: "#1da1f2"
   class: "fab fa-twitter icon"
-  url: https://twitter.com/fredhohman
+  url: https://twitter.com/davidmunechika
   on-homepage: true
   cv-group: 2
 
 - id: github
-  description: "@fredhohman"
+  description: "@davidmunechika"
   color: "#6e5494"
   class: "fab fa-github icon"
-  url: "https://github.com/fredhohman"
+  url: "https://github.com/davidmunechika"
   on-homepage: true
   cv-group: 2
 
@@ -34,7 +34,7 @@
   description: "Google Scholar"
   color: "#515151"
   class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?user=1w0TLT8AAAAJ&hl=en"
+  url: "https://scholar.google.com/citations?user=OaMf94IAAAAJ&hl=en&oi=ao"
   on-homepage: true
   cv-group: 2
 
@@ -47,7 +47,7 @@
   cv-group: 1
 
 - id: cv-web
-  description: Here's my CV
+  description: Here's my resume
   color: "#515151"
   class: "fa fa-address-card icon"
   url: "/cv"

@@ -19,11 +19,12 @@ $author-image-size: 80px;
 
 #author-wrapper {
 	grid-column: text;
-	display: grid;
+	display: flex;
 	grid-template-columns: repeat(4, 1fr);
 	grid-column-gap: 0.875rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	justify-content: center;
 }
 
 .author {
@@ -37,7 +38,7 @@ $author-image-size: 80px;
 .author-image {
 	height: $author-image-size;
 	width: $author-image-size;
-	border-radius: $author-image-size/2;
+	border-radius: calc($author-image-size/2);
 	margin: 0 auto;
 	margin-bottom: 0.5rem;
 }
@@ -50,6 +51,7 @@ $author-image-size: 80px;
 	grid-column: text;
 	color: $mid-gray;
 	font-size: 1.1em;
+	text-align: center;
 }
 
 #paper-award {

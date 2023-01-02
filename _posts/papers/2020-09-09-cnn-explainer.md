@@ -10,7 +10,7 @@ authors:
   - Omar Shaikh 
   - Haekyu Park
   - Nilaksh Das
-  - Fred Hohman
+  - David Munechika
   - Minsuk Kahng
   - Duen Horng (Polo) Chau
 venue: IEEE Transactions on Visualization and Computer Graphics

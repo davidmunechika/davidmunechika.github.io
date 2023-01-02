@@ -1,6 +1,6 @@
 /* TEAM */
-	Author: Fred Hohman
-	Twitter: @fredhohman
+	Author: David Munechika
+	Twitter: @davidmunechika
 	Location: Atlanta, United States
 
 /* SITE */

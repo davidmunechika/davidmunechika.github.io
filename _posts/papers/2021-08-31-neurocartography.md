@@ -10,7 +10,7 @@ authors:
   - Rahul Duggal
   - Austin P. Wright
   - Omar Shaikh
-  - Fred Hohman
+  - David Munechika
   - Duen Horng (Polo) Chau
 venue: IEEE Transactions on Visualization and Computer Graphics
 venue-shorthand: TVCG

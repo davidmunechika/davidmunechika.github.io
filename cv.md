@@ -6,7 +6,7 @@ jsarr:
 - js/scripts.js
 ---
 
-<h1 id="cv-title"><a href="{{ site.url }}">Fred Hohman</a></h1>
+<h1 id="cv-title"><a href="{{ site.url }}">David Munechika</a></h1>
 
 <p id="cv-subtitle"><i>Research Scientist (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
 
@@ -243,7 +243,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 <!-- 
 ## Contact
 
-Fred Hohman  
+David Munechika  
 `fredhohman@gatech.edu`  
 CODA Tech Square  
 Georgia Tech  
@@ -267,7 +267,7 @@ Universe
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
 
-[fred]: http://fredhohman.com "Fred Hohman"
+[fred]: http://fredhohman.com "David Munechika"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
 [alex]: http://va.gatech.edu/endert/ "Alex Endert"
 

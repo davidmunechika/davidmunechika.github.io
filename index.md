@@ -5,23 +5,22 @@ title: Home
 
 <div id ="intro-wrapper" class="l-middle">
 	<div id="intro-title-wrapper" class="intro-left">
-		<h1 id="intro-title">Hi, I'm Fred Hohman</h1>
+		<h1 id="intro-title">Hi, I'm David Munechika</h1>
 		<div id="intro-subtitle">
-			I'm a Research Scientist at Apple
+			I'm a Stamps President's Scholar at Georgia Tech
 		</div>
 	</div>
 	<div class="intro-left">
 	<div class="intro-left">
-		I design and develop interactive interfaces to help people <b>understand machine learning models</b> and data-driven systems. Besides building tools, I also create <b>data visualizations</b> and write interactive articles to simply communicate complex ideas.
+		I'm a bachelor’s candidate in <b>Computer Science</b> and Stamps President's Scholar at the Georgia Institute of Technology with degree concentrations in <b>Artificial Intelligence</b> and <b>Information Internetworks</b>.
 	</div>
 	<div style="height: 1rem"></div>
 	<div class="intro-left">
-		I received my PhD from Georgia Tech where I worked with <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> and <a href="http://va.gatech.edu/endert/">Alex Endert</a>. My dissertation on <a href="/dissertation">interactive interfaces for interpretability</a> won the <i>ACM SIGCHI Outstanding Dissertation Award</i> and was supported by a <i>NASA Space Technology Research Fellowship</i>.
-		<!-- enabling machine learning interpretability at scale and for everyone -->
+	I have strong proficiencies in both object-oriented and functional programming languages including <b>Java, JavaScript, Typescript, Python, and Elixir</b>. I have experience building web and mobile applications as a full-stack developer in an agile environment, using various <b>web frameworks</b> (React, Node, Express, Phoenix), <b>database management systems</b> (PostgreSQL, MySQL, MongoDB, Firebase), <b>cloud computing services</b> (AWS, GCP), and <b>container management systems</b> (Docker, Kubernetes). My past research experience involves <b>deep learning</b> for computer vision applications, geospatial <b>data science and visualization</b>, and <b>natural language processing</b>.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I have collaborated with designers, developers, artists, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/apple.svg"> Apple, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/microsoft.svg"> Microsoft Research, <img class="intro-logo" style="width: 24px" src="/images/nasa.svg"> NASA Jet Propulsion Lab, and <img class="intro-logo" style="width: 24px;" src="/images/pnnl.svg"> Pacific Northwest National Lab.
+		I have collaborated with designers, developers, engineers, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/amazon.svg"> Amazon, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/splunk.png"> Splunk, <img class="intro-logo" style="width: 24px" src="/images/cypress.png"> Cypress, and <img class="intro-logo" style="width: 24px;" src="/images/stord.png"> Stord.
 	</div>
 </div>
 
@@ -42,7 +41,6 @@ title: Home
 				{% include social-link.html link=link %}
 			{% endif %}
 		{% endfor %}
-		<!-- <div id="intro-cv"><a href="/cv">Here's my CV.</a></div> -->
 	</div>
 	</div>
 </div>
@@ -62,7 +60,7 @@ title: Home
 </div>
 
 <h2 class="feature-title l-middle">
-	Featured <a href="/dissertation">Dissertation Publications</a>
+	Past <a href="/dissertation">Internship Experience</a>
 </h2>
 <div class="cover-wrapper l-screen">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
@@ -73,19 +71,7 @@ title: Home
 	{% endfor %}
 </div>
 
-<h2 class="feature-title l-middle">
-	Featured <a href="/cv#interactive-articles">Interactive Articles</a>
-</h2>
-<div class="cover-wrapper l-screen">
-	{% assign sortedArticles = site.data.articles | sort: 'feature-order' %}
-	{% for feature in sortedArticles %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<h2 class="feature-title l-middle">
+<!-- <h2 class="feature-title l-middle">
 	<a href="{{ site.url }}/everything-else" style="color: #303030">Everything Else</a>
 </h2>
 <div id="everything-else" class="l-middle">
@@ -94,10 +80,7 @@ title: Home
 	<a href="{{ site.url }}/stuff-i-use"><div>Stuff I Use</div></a>
 	<a href="{{ site.url }}/monthly-music"><div>Monthly Music</div></a>
 	<a href="{{ site.url }}/archive"><div>Archive</div></a>
-</div>
-<!-- <p class="l-middle intro-text" markdown="1">
-	Including a list of [projects][projects], the [blog][blog], [monthly music playlists][monthly-music], [stuff I use][stuff-i-use], and the [archive][archive].
-</p> -->
+</div> -->
 
 
 

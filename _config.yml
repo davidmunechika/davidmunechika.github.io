@@ -1,6 +1,6 @@
-title: Fred Hohman
+title: David Munechika
 tagline: Research Scientist at Apple
-url: http://fredhohman.com
+url: http://davidmunechika.com
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -14,9 +14,9 @@ sass:
   style: compressed
 
 author:
-  name: Fred Hohman
-  url: http://fredhohman.com
-  email: fred.hohman@gmail.com
+  name: David Munechika
+  url: http://davidmunechika.com
+  email: david.munechika@gmail.com
 
 markdown: kramdown
 highlighter: rouge

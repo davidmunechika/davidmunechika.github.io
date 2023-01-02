@@ -1,19 +1,21 @@
+
+
 {
-  "name": "fredhohman.github.io",
-  "version": "1.0.0",
-  "description": "Fred Hohman's website.",
-  "main": "index.js",
-  "scripts": {
-    "start": "bundle exec jekyll serve --livereload"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fredhohman/fredhohman.github.io.git"
-  },
-  "author": "Fred Hohman",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fredhohman/fredhohman.github.io/issues"
-  },
-  "homepage": "https://github.com/fredhohman/fredhohman.github.io#readme"
-}
+    "name": "davidmunechika.github.io",
+    "version": "1.0.0",
+    "description": "David Munechika's website.",
+    "main": "index.js",
+    "scripts": {
+      "start": "bundle exec jekyll serve --livereload"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/davidmunechika/davidmunechika.github.io.git"
+    },
+    "author": "David Munechika",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/davidmunechika/davidmunechika.github.io/issues"
+    },
+    "homepage": "https://github.com/davidmunechika/davidmunechika.github.io#readme"
+  }

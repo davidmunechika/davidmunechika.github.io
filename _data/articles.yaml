@@ -134,7 +134,7 @@
 - title: "Parametric Press, Issue 02: The Climate Issue"
   authors:
     - Matthew Conlen
-    - Fred Hohman
+    - David Munechika
     - Sara Stalla
     - Andrew Sass
   description: "Interactively analyze our climate’s past, present, and future"
@@ -156,7 +156,7 @@
 - title: "Parametric Press, Issue 01: Science + Society"
   authors:
     - Matthew Conlen
-    - Fred Hohman
+    - David Munechika
     - Sara Stalla
     - Victoria Uren
     - Andrew Sass
@@ -180,7 +180,7 @@
 - title: Blueberry Pancakes
   authors:
     - Caleb Robinson
-    - Fred Hohman
+    - David Munechika
   description: A toy algorithms problem
   month: "November"
   year: 2018
@@ -196,7 +196,7 @@
 - title: "The Beginner's Guide to Dimensionality Reduction"
   authors: 
     - Matthew Conlen
-    - Fred Hohman
+    - David Munechika
   description: "Explore the methods data scientists use to visualize high-dimensional data"
   month: July
   year: 2018
@@ -214,7 +214,7 @@
 
 - title: The Math of Card Shuffling
   authors:
-    - Fred Hohman
+    - David Munechika
   description: "Riffling from factory order to complete randomness"
   month: June
   year: 2018
@@ -230,7 +230,7 @@
 
 - title: A Viz of Ice and Fire
   authors:
-    - Fred Hohman
+    - David Munechika
     - Sandeep Soni
     - Ian Stewart
     - John Stasko

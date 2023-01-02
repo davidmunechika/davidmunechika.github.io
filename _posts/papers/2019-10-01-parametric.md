@@ -6,7 +6,7 @@ id: parametric
 title: "Launching the Parametric Press"
 authors:
     - Matthew Conlen 
-    - Fred Hohman
+    - David Munechika
 venue: Visualization for Communication at IEEE VIS
 venue-shorthand: VisComm
 location: Vancouver, Canada
