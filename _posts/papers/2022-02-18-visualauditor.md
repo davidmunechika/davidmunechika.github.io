@@ -1,54 +1,46 @@
 ---
 layout: paper
-id: symphony
+id: visual-auditor
 categories: papers
-permalink: papers/symphony
-title: "Symphony: Composing Interactive Interfaces for Machine Learning"
+permalink: papers/visual-auditor
+title: "Visual Auditor: Interactive Visualization for Detection and Summarization of Model Biases"
 authors: 
-    - Alex Bäuerle
-    - Ángel Alexander Cabrera
     - David Munechika
-    - Megan Maher
-    - David Koski
-    - Xavier Suau
-    - Titus Barik
-    - Dominik Moritz
-equal-contribution:
-    - Alex Bäuerle
-    - Ángel Alexander Cabrera
-venue: ACM Conference on Human Factors in Computing Systems
-venue-shorthand: CHI
-location: New Orleans, LA, USA
+    - Zijie J. Wang
+    - Jack Reidy
+    - Josh Rubin
+    - Krishna Gade
+    - Krishnaram Kenthapadi
+    - Duen Horng Chau
+venue: IEEE Visualization Conference
+venue-shorthand: VIS
+location: Oklahoma City, OK, USA
 year: 2022
-url: /papers/symphony
-pdf: https://machinelearning.apple.com/research/composing-interactive-interfaces
-preview: https://www.youtube.com/watch?v=Wf-YRBsI-wA
-recording: https://www.youtube.com/watch?v=0Q3wIh3AiPs
+url: /papers/visual-auditor
+pdf: https://arxiv.org/abs/2206.12540
+code: https://github.com/poloclub/visual-auditor
+preview: https://youtu.be/ZGCVtu2fcbc
+recording: https://youtu.be/MRv0hUtMvDc
 selected: true
 type: conference
-figure: /images/papers/22-symphony-chi.png
-doi: 10.1145/3491102.3502102
+figure: /images/visual-auditor-main.png
+doi: 10.48550/arXiv.2206.12540
 featured: true
 feature-order: 1
 feature-title: Visual Auditor
-feature-description: Composing interactive interfaces for machine learning
-image: /images/featured/symphony.png
+feature-description: Interactive Visualization for Detection and Summarization of Model Biases
+image: /images/visual-auditor-main.png
 coming-soon: false
 bibtex: |-
 
-  @inproceedings{bauerle2022symphony,
-    title={Symphony: Composing Interactive Interfaces for Machine Learning},
-    author={Bäuerle, Alex and Cabrera, Ángel Alexander and Hohman, Fred and Maher, Megan and Koski, David and Suau, Xavier and Barik, Titus and Moritz, Dominik},
-    booktitle={Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  @inproceedings{munechika2022visual,
+    title={Visual Auditor: Interactive Visualization for Detection and Summarization of Model Biases},
+    author={Munechika, David and Wang, Zijie J and Reidy, Jack and Rubin, Josh and Gade, Krishna and Kenthapadi, Krishnaram and Chau, Duen Horng},
+    booktitle={2022 IEEE Visualization and Visual Analytics (VIS)},
+    pages={45--49},
     year={2022},
-    organization={ACM},
-    doi={10.1145/3491102.3502102}
+    organization={IEEE}
   }
 ---
     
-Interfaces for machine learning (ML), information and visualizations about models or data, can help practitioners build robust and responsible ML systems.
-Despite their benefits, recent studies of ML teams and our interviews with practitioners (n=9) showed that ML interfaces have limited adoption in practice.
-While existing ML interfaces are effective for specific tasks, they are not designed to be reused, explored, and shared by multiple stakeholders in cross-functional teams.
-To enable analysis and communication between different ML practitionerss, we designed and implemented Symphony, a framework for composing interactive ML interfaces with task-specific, data-driven components that can be used across platforms such as computational notebooks and web dashboards.
-We developed Symphony through participatory design sessions with 10 teams (n=31), and discuss our findings from deploying Symphony to 3 production ML projects at Apple.
-Symphony helped ML practitioners discover previously unknown issues like data duplicates and blind spots in models while enabling them to share insights with other stakeholders.
+As machine learning (ML) systems become increasingly widespread, it is necessary to audit these systems for biases prior to their deployment. Recent research has developed algorithms for effectively identifying intersectional bias in the form of interpretable, underperforming subsets (or slices) of the data. However, these solutions and their insights are limited without a tool for visually understanding and interacting with the results of these algorithms. We propose Visual Auditor, an interactive visualization tool for auditing and summarizing model biases. Visual Auditor assists model validation by providing an interpretable overview of intersectional bias (bias that is present when examining populations defined by multiple features), details about relationships between problematic data slices, and a comparison between underperforming and overperforming data slices in a model. Our open-source tool runs directly in both computational notebooks and web browsers, making model auditing accessible and easily integrated into current ML development workflows. An observational user study in collaboration with domain experts at Fiddler AI highlights that our tool can help ML practitioners identify and understand model biases.

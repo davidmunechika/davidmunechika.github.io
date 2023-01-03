@@ -7,7 +7,6 @@ layout: default
     <div id="author-wrapper">
         {% for person in page.authors %}
             <div class="author">
-                {% include person-image.html person=person %}{% for p in page.equal-contribution %}{% if person == p %}{% endif %}{% endfor %}
                 {% include person.html person=person %}{% for p in page.equal-contribution %}{% if person == p %}*{% endif %}{% endfor %}
             </div>
         {% endfor %}
