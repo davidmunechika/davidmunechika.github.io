@@ -1,6 +1,6 @@
 title: David Munechika
-tagline: Research Scientist at Apple
-url: http://davidmunechika.com
+tagline: Stamps President's Scholar at Georgia Tch
+url: http://davidmunechika.github.io
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -15,7 +15,7 @@ sass:
 
 author:
   name: David Munechika
-  url: http://davidmunechika.com
+  url: http://davidmunechika.github.io
   email: david.munechika@gmail.com
 
 markdown: kramdown
