@@ -1,6 +1,6 @@
 title: David Munechika
 tagline: Stamps President's Scholar at Georgia Tch
-url: http://davidmunechika.github.io
+url: http://davidmunechika.com
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -15,7 +15,7 @@ sass:
 
 author:
   name: David Munechika
-  url: http://davidmunechika.github.io
+  url: http://davidmunechika.com
   email: david.munechika@gmail.com
 
 markdown: kramdown

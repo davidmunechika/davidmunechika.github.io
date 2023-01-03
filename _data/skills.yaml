@@ -8,36 +8,39 @@
 - name: Programming
   items:
     - Python
-    - Matlab
-    - Mathematica
-    - C
-
-- name: Web and Writing
-  items: 
+    - Java
+    - Javascript
+    - Typescript
     - HTML
     - CSS
-    - JavaScript
-    - D3
-    - SQL
-    - Bootstrap
-    - LaTeX
-    - Markdown
-    - Jekyll
-    - Git
-- name: Graphics
-  items: 
-  - Affinity Designer
-  - Pixelmator
-  - Matplotlib
-  - Blender
-  - Keynote
-  - Meshlab
-  - MakerBot Desktop  
+    - Swift
+    - Elixir
+    - C
 
-- name: HCI
-  items:
-  - Contextual Inquiry
-  - Think-Alouds
-  - User Personas
-  - Rapid Paper Prototyping
-  - Affinity Diagraming
+- name: Frameworks and Tools
+  items: 
+    - Node
+    - React
+    - Express
+    - Vue
+    - Phoenix
+    - AWS
+    - GCP
+    - MongoDB
+    - Firebase
+    - SQL
+    - PostgreSQL
+    - D3
+    - Socket.io
+    - Apache Kafka
+    - Cypress
+    - Pandas
+    - NumPy
+    - PyTorch
+    - Git
+    - Docker
+    - Kubernetes
+    - k6
+    - Figma
+    - Jira
+    - Vercel

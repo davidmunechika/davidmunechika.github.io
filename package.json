@@ -1,7 +1,7 @@
 
 
 {
-    "name": "davidmunechika.github.io",
+    "name": "davidmunechika.com",
     "version": "1.0.0",
     "description": "David Munechika's website.",
     "main": "index.js",
@@ -10,12 +10,12 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/davidmunechika/davidmunechika.github.io.git"
+      "url": "git+https://github.com/davidmunechika/davidmunechika.com.git"
     },
     "author": "David Munechika",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/davidmunechika/davidmunechika.github.io/issues"
+      "url": "https://github.com/davidmunechika/davidmunechika.com/issues"
     },
-    "homepage": "https://github.com/davidmunechika/davidmunechika.github.io#readme"
+    "homepage": "https://github.com/davidmunechika/davidmunechika.com#readme"
   }

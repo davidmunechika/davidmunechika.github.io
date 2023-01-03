@@ -1,0 +1,11 @@
+- title: "Auxpad"
+  date: "Aug. 2021 — Mar. 2021"
+  venue: "Transcription Powered Note-Taking"
+  description: "Assisted development of a note-taking application with integrated voice transcription. Designed the frontend UI/UX and expanded NLP speech recognition features along with handling database management, audio streams, file transcription, and creation of a backend REST API."
+  url: https://www.auxpad.com/
+
+- title: Flaer
+  date: "May 2022 — May 2021"
+  venue: "Nonprofit Partnership Platform"
+  description: "Created a web application for nonprofits and organizations to discover and build partnerships (1,000+ followers and 750+ clients). Designed and developed the application UI/UX, REST API, intelligent recommendation algorithm, private user-to-user chat, JWT authentication system, and backend architecture. Acquired Havn Connect: a platform that connects nonprofit organizations with volunteers. Awarded Grand Prize at the Spring 2021 CREATE-X I2P Showcase, featuring 65+ innovative startup teams."
+  url: https://www.flaer.io/

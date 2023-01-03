@@ -1,42 +1,26 @@
-- degree: "Ph.D. in Computational Science & Engineering"
+- degree: "M.S. in Computer Science (Machine Learning)"
   institution: Georgia Institute of Technology
   location: "Atlanta, GA"
-  advisor: Duen Horng (Polo) Chau
-  co-advisor: Alex Endert
-  years: "Dec. 2020 —"
-  years-extra: "Aug. 2015"
-  thesis: "Interactive Scalable Interfaces for Machine Learning Interpretability"
-  thesis-video: https://youtu.be/TNH8RqyNfmo
-  thesis-link: ../dissertation/
-  thesis-pdf: ../papers/fred-hohman-thesis.pdf
-  committee:
-    - Duen Horng (Polo) Chau
-    - Alex Endert
-    - Chao Zhang
-    - Nathan Hodas
-    - Scott Davidoff
-    - Steven Drucker
-  institution-url: https://www.gatech.edu/
-  awards:
-    - ACM SIGCHI Outstanding Dissertation Award
-    - Georgia Tech College of Computing Dissertation Award
-
-- degree: "M.S. in Computational Science & Engineering"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  years: May 2018
+  years: "Present —"
+  years-extra: "Aug. 2021"
   institution-url: https://www.gatech.edu/
   description:
     - "GPA: 4.00/4.00"
 
-- degree: "B.S. in Mathematics, B.S. in Physics"
-  years: "May 2015 —"
-  years-extra: "Aug. 2011"
-  institution: University of Georgia
-  location: "Athens, GA"
-  thesis: "3D Printing the Trefoil Knot and its Pages"
-  thesis-link: ../projects/3d-printing-the-trefoil-knot-and-its-pages/
-  thesis-pdf: ../papers/fred-hohman-undergrad-thesis.pdf
+- degree: "B.S. in Computer Science (Artificial Intelligence & Information Internetworks)"
+  institution: Georgia Institute of Technology
+  location: "Atlanta, GA"
+  years: "May 2023 —"
+  years-extra: "Aug. 2020"
+  institution-url: https://www.gatech.edu/
+  description:
+    - "GPA: 4.00/4.00, Stamps President's Scholar, CREATE-X Scholar"
+
+- degree: "High School Diploma"
+  years: "June 2020 —"
+  years-extra: "Sep. 2016"
+  institution: Fairport High School
+  location: "Fairport, NY"
   description: 
-    - "Overall GPA: 3.84/4.00, Magna Cum Laude, Area of Emphasis in Applied Mathematics"
-  institution-url: https://www.uga.edu/
+    - "GPA: 99.85/100, Rank: 1/485, Valedictorian, Student Wall of Distinction"
+  institution-url: https://www.fairport.org/our-schools/fairport-high-school/

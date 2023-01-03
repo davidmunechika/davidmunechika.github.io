@@ -1,71 +1,31 @@
-- name: ACM SIGCHI Outstanding Dissertation Award
-  description: 'For my dissertation "Interactive Scalable Interfaces for Machine Learning Interpretability"'
-  year: 2022
+- name: Grand Prize Winner @ CREATE-X I2P Showcase
+  description: "1st Place Winner of Georgia Tech’s Idea-2-Prototype (I2P) Showcase Competition, which featured over 65 innovative startup teams founded by Georgia Tech students."
+  year: 2021
 
-- name: Georgia Tech College of Computing Dissertation Award
-  description: 'For my dissertation "Interactive Scalable Interfaces for Machine Learning Interpretability"'
-  year: 2022
+- name: CREATE-X Scholar
+  description: "The CREATE-X Scholars program selects 10 students each year from over 1,000 applications. The scholars are holistically selected based on their entrepreneurial spirit and potential."
+  year: 2020
 
-- name: Best Paper at ACM CHI Conference
-  description: 'For "Neo: Generalizing Confusion Matrix Visualization to Hierarchical and Multi-Output Labels"'
-  year: 2022
+- name: Stamps President's Scholar
+  description: "Awarded a full-ride scholarship as 1 of 20 out-of-state recipients from an applicant pool of more than 30,000 students at the Georgia Institute of Technology (represent < 0.1% of applicants). Recipients of the full-ride scholarship are selected based upon holistic excellence and potential within the program’s four pillars: Scholarship, Leadership, Progress, and Service."
+  year: 2020
 
-- name: Best Paper at ACM CHI Conference
-  description: For "Managing Messes in Computational Notebooks"
+- name: Student Hall of Fame Inductee
+  description: "The Fairport High School Student Hall of Fame exists to annually recognize outstanding Fairport High School students who have achieved distinction in their careers at FHS based on the following criteria: Academics, Extracurriculars, Citizenship, Service, Leadership, and Spirit. Each year no more than 1% of the graduating class may be inducted into the Student Hall of Fame."
+  year: 2020
+
+- name: Valedictorian
+  description: "For achieving the highest academic rank in a class of 485 students."
+  year: 2020
+
+- name: Scholar Athlete of the Year
+  description: "Awarded to one male and one female varsity athlete each year."
+  year: 2020
+
+- name: National Merit Scholar
+  description: "About 1.6 million students enter the National Merit Scholarship competition annually when they take the Preliminary SAT/National Merit Scholarship Qualifying Test (PSAT/NMSQT). By the conclusion of the competition, a select group of Finalists are chosen to receive prestigious National Merit Scholarships. Winners are the Finalist candidates judged to have the strongest combination of academic skills and achievements, extracurricular accomplishments, and potential for success in rigorous university studies. Scholarship winners represent fewer than 1% of the initial pool of student entrants."
+  year: 2020
+
+- name: Notre Dame Junior of the Year
+  description: "Awarded to one student out of a pool of over 100 area high schools based on exceptional academic accomplishments and excellence in extracurricular activities, community service, and character. The winner was chosen from nine finalists following a breakfast interview with the committee."
   year: 2019
-
-- name: Best Paper, Honorable Mention at VISxAI Workshop at IEEE VIS
-  description: For "The Beginner's Guide to Dimensionality Reduction"
-  year: 2018
-
-- name: NASA Space Technology Research Fellowship
-  description: For my Ph.D. work on "Understanding Deep Neural Networks Through Attribution and Interactive Experimentation"
-  year: "2018 — 2021"
-
-- name: Audience Appreciation Award, Runner Up at ACM SIGKDD Conference
-  description: 'For "Shield: Fast, Practical Defense and Vaccination for Deep Learning using JPEG Compression"'
-  year: 2018
-
-- name: "Microsoft Azure for Research Award: AI for Earth"
-  description: For our work on "Deep Learning for Fine-scale Population Maps"
-  year: "2017 — 2018"
-
-- name: "Best Demo, Honorable Mention at ACM SIGMOD/PODS Conference"
-  description: For "Visual Graph Query Construction and Refinement"
-  year: 2017
-
-- name: "President's Fellowship at Georgia Institute of Technology"
-  description: Select number of 1st year doctoral students who bring exemplary levels of scholarship and innovation to their academic departments
-  year: "2015 — 2019"
-
-- name: Outstanding Poster at JMM Undergraduate Poster Session in Computational Math
-  description: For "Experimental and Numerical Comparison of Oceanic Overflow"
-  year: 2015
-
-- name: UGA CURO Research Graduation Distinction
-  description: Awarded to undergraduates who write a thesis, present at the CURO Symposium, and complete 9 research credit hours
-  year: 2015
-
-- name: UGA CURO Research Assistantship
-  description: Stipend awarded to outstanding undergraduates that actively participate in faculty-mentored research
-  year: 2014
-
-# - name: Presidential Scholar
-#   description: "Achieved a 4.0 GPA during a semester with minimum 14 credit hours"
-#   year: 2013
-
-- name: "Dean's List"
-  description: Achieved at least a 3.5 GPA during a semester with minimum 14 credit hours
-  year: 2011 — 2015
-
-- name: Georgia HOPE Scholarship
-  description: "Merit-based award to Georgia residents providing tuition assistance for their undergraduate degree"
-  year: "2011 — 2015"
-
-- name: "Mission of Blessed Trinity: Artistic Sensibility"
-  description: One of two students to receive the Mission Statement award upon high-school graduation
-  year: 2011
-
-# - name: Eagle Scout Award
-#   description: "Highest achievement attainable in the Boy Scouts of America, only 4% of scouts granted this rank"
-#   year: 2009

@@ -1,113 +1,88 @@
-- institution: Apple
-  location: "Seattle, WA"
-  position: Research Scientist
-  group: "Design + Visualization Group"
-  year: "Present — Jan. 2021"
-  description: "Research and design for everyone in the machine learning process—the developers who build models, the designers who create experiences, and the people who use technology."
-  institution-url: https://apple.com
-  group-url: https://machinelearning.apple.com/
+- institution: Splunk
+  location: "San Jose, CA"
+  position: Software Engienering Intern
+  group: "AWS Spend"
+  year: "Present — May 2023"
+  description: "Splunk is the data platform that powers enterprise observability, unified security and limitless custom applications in hybrid environments."
+  institution-url: https://www.splunk.com/
+  group-url: https://www.splunk.com/
   type: industry
 
-- institution: Apple
+- institution: Amazon
   location: "Seattle, WA"
-  position: Research Intern
-  group: "Turi Human-centered Machine Learning Group"
-  year: Summer 2019
+  position: Software Development Engineering Intern
+  group: "AWS EC2"
+  year: "Aug. 2022 — May 2022"
   mentors:
-    - Kanit Wongsuphasawat
-    - Kayur Patel
-  description: "Designed and developed interactive visualizations for data iteration in machine learning, published at CHI 2020."
+    - Chirabrata Senapati
+    - Matthew Lewis
+  description: "Software development engineering intern contributing to the backend development and scaling of AWS EC2 and VPC technologies. Built packages using native AWS services such as Elastic Compute Cloud (EC2), Virtual Private Cloud (VPC), Elastic Container Service (ECS), Fargate, Cloudwatch, Cloudformation, and Cloud Development Kit (CDK)."
   institution-url: https://apple.com
   group-url: https://apple.com
   type: industry
 
-- institution: Microsoft Research
-  location: "Redmond, WA"
-  position: Research Intern
-  group: "Human-Computer Interaction Group"
-  year: Summer 2018
+- institution: Cypress.io
+  location: "Atlanta, GA"
+  position: Software Development Intern
   mentors:
-    - Steven Drucker
-  description: "Designed, developed, and deployed interactive interface for operationalizing machine learning interpretability, published at CHI 2019."
-  institution-url: https://www.microsoft.com/en-us/research
-  group-url: https://www.microsoft.com/en-us/research/group/human-computer-interaction
+    - Jennifer Shehane
+  group: "Cypress App Team"
+  year: "May. 2022 — Sep. 2021"
+  description: "Cypress is the world's best automated test runner, with over 17 million downloads and users in over 90 countries. Worked across the stack to implement new features and fix bugs in the Cypress test runner; closely collaborated with product and design teams on product specifications; contributed to the development, refinement, and hardening of the major Cypress v10 unification release. Served as the support rotation engineer responsible for triaging new issues, fixing regressions, surfacing high-priority bugs, and engaging with the open-source community. Created a repository of web hooks for automating ClickUp actions to streamline product management processes; integrated CI/CD with Vercel and Github Actions, code coverage with Codecov, and distributed tracing with Honeycomb."
+  institution-url: https://www.cypress.io/
+  group-url: https://www.cypress.io/features
   type: industry
 
-- institution: NASA Jet Propulsion Lab
-  location: "Pasadena, CA"
-  position: Creative Computer Scientist
-  group: Human Interfaces Group
-  year: Summer 2017
+- institution: Stord
+  location: "Atlanta, GA"
+  position: Software Engineering Intern
+  group: Apollo
+  year: "Aug. 2021 — May 2021"
   mentors:
-    - Scott Davidoff
-    - Arun Viswanathan
-  description: "Joint work between NASA JPL, Caltech, and Art Center creating interactive data visualizations for current scientific research. Prototype presented to lab leadership and secured funding to be incorporated into Mars 2020 mission."
-  institution-url: https://www.jpl.nasa.gov
-  group-url: https://hi.jpl.nasa.gov/
-  type: industry
-
-- institution: Pacific Northwest National Lab
-  location: "Richland, WA"
-  position: "National Security Ph.D. Intern"
-  group: "Data Sciences & Analytics Group"
-  year: Summer 2016
-  mentors:
-    - Nathan Hodas
-  description: "Built interactive tools that generate synthetic images to explain deep learning classifiers, published at CHI 2017."
-  institution-url: https://www.pnnl.gov
-  group-url: http://www.pnnl.gov/nationalsecurity/technical/capabilities/computing/data_sciences.stm
+    - Adam Kauffman
+  description: "Contributed to both the distributed microservice backend and enterprise frontend architecture, completing agile software development to handle shipper/warehouse inventory management, order orchestration logic, facility activity services, and security compliance. Assisted a team of engineers in spearheading the load testing effort prior to a major software release, optimizing the performance of services to handle over 1.7 million order creations per day."
+  institution-url: https://www.stord.com/
+  group-url: https://www.stord.com/
   type: industry
 
 - institution: Georgia Institute of Technology
   location: "Atlanta, GA"
-  position: Graduate Research Assistant
+  position: Undergraduate Research Assistant
   group: School of Computational Science and Engineering
   year: "Present —"
-  year-extra: "Aug. 2016"
+  year-extra: "Aug. 2021"
   mentors: 
     - Duen Horng (Polo) Chau
-    - Alex Endert
   advisor: true
   description: "Member of the Polo Club of Data Science where we bridge and innovate at the intersection of data mining and human-computer interaction to synthesize scalable, interactive, and interpretable tools that amplify human’s ability to understand and interact with big data."
   institution-url: http://gatech.edu
   group-url: http://cse.gatech.edu
   type: academic
 
-- institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  position: Graduate Research Assistant
-  group: School of Computational Science and Engineering
-  year: "May 2016 —"
-  year-extra: "Aug. 2015"
-  mentors:
-    - Surya Kalidindi
-  description: "Conducted research in physical data science and material informatics by creating property-structure linkages using machine learning to predict material properties. Contributed to direction and code of PyMKS: Materials Knowledge Systems in Python."
-  institution-url: http://gatech.edu
-  group-url: http://cse.gatech.edu
-  type: academic
-
-- institution: University of Georgia
-  location: "Athens, GA"
+- institution: Harvard University
+  location: "Cambridge, MA"
   position: Undergraduate Research Assistant
-  group: Department of Mathematics
-  year: "May 2015 —"
-  year-extra: "Jan. 2013"
+  group: Center for Geographic Analysis
+  year: "Jul. 2021 —"
+  year-extra: "Sep. 2020"
   mentors:
-    - David Gay
-  advisor: true
-  description: "Explored 3D printing and mathematical exposition in topology. Programmed, designed, and 3D printed 34-piece, color-coordinated, and magnetized 3D puzzle of the trefoil knot fibration. Led 3D printing research and education in mathematics department."
-  institution-url: http://www.uga.edu
-  group-url: http://math.uga.edu
+    - Tao Hu
+  description: 'Worked under Dr. Tao Hu at the Center for Geographic Analysis using Python to analyze the geospatial impact of media coverage and reporting on information seeking behavior and the spread of COVID-19. Performed data collection, processing, engineering, and analysis for the Data Science Team, specifically focused on text mining and Natural Language Processing (NLP). Project presented during the third series of an NSF and IAB funded webinar on "Open Spatiotemporal Resources for Fighting COVID-19".'
+  institution-url: https://www.harvard.edu/
+  group-url: https://gis.harvard.edu/
   type: academic
 
-- institution: REU in Mathematics and Computational Science
-  location: "Fairfield, CT"
-  position: Fairfield University
-  group: Department of Mathematics
-  year: Summer 2014
+- institution: Rochester Institute of Technology
+  location: "Rochester, NY"
+  position: Machine Learning Intern
+  group: Chester F. Carlson Center for Imaging Science
+  year: "Aug. 2019 —"
+  year-extra: "Jul. 2019"
   mentors:
-    - Shanon Reckinger
-  description: "Directly compared numerical solutions from Navier-Stokes equations to designed lab-scale experiments to model specific ocean phoneme. Configured MIT General Circulation Model on CPU cluster to run parallel computational fluid dynamics simulations."
-  institution-url: http://faculty.fairfield.edu/srafalski/reu/
-  group-url: https://www.fairfield.edu/undergraduate/academics/schools-and-colleges/college-of-arts-and-sciences/programs/mathematics/
+    - Ryne Roady
+    - Christopher Kanan
+  advisor: true
+  description: 'Worked as part of the Machine and Neuromorphic Perception Laboratory (a.k.a. kLab) and focused on developing a convolutional deep neural network model which more accurately mimics human learning by synthesizing continual learning and novelty detection capabilities. Research titled "Incremental Open Set Recognition: Exploring Novel Input Detection in Incremental Learning Models” was accepted for poster presentation at the IEEE Image and Signal Processing Conference in Western, New York.'
+  institution-url: https://www.rit.edu/
+  group-url: https://www.rit.edu/science/chester-f-carlson-center-imaging-science
   type: academic

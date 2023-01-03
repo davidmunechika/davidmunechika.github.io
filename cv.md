@@ -8,35 +8,22 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">David Munechika</a></h1>
 
-<p id="cv-subtitle"><i>Research Scientist (<span class="cv-vis">HCI</span> + <span class="cv-ai">ML</span>)</i></p>
-
-<!-- <div id="cv-toc">
-<ul class="cv-description">
-	<li>Education</li>
-	<li>Industry Research</li>
-	<li>Academic Research</li>
-	<li>Honors and Awards</li>
-	<li>Publications</li>
-	<li>Talks</li>
-	<li>Press</li>
-	<li>Teaching</li>
-	<li>Mentoring</li>
-	<li>Grants and Funding</li>
-	<li>Interactive Articles</li>
-	<li>Service</li>
-	<li>Design</li>
-	<li>References</li>
-</ul>
-</div> -->
+<p id="cv-subtitle"><i>Stamps President's Scholar at Georgia Tech</i></p>
 
 <div>
-I design and develop <b><span class="cv-vis">interactive interfaces</span></b> to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
+I'm a bachelor’s candidate in <b>Computer Science</b> and Stamps President's Scholar at the Georgia Institute of Technology with degree concentrations in <b>Artificial Intelligence</b> and <b>Information Internetworks</b>.
 </div>
 
 <div class="cv-spacer"></div>
 
 <div>
-I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
+I have strong proficiencies in both object-oriented and functional programming languages including <b>Java, JavaScript, Typescript, Python, and Elixir</b>. I have experience building web and mobile applications as a full-stack developer in an agile environment, using various <b>web frameworks</b> (React, Node, Express, Phoenix), <b>database management systems</b> (PostgreSQL, MySQL, MongoDB, Firebase), <b>cloud computing services</b> (AWS, GCP), and <b>container management systems</b> (Docker, Kubernetes). My past research experience involves <b>deep learning</b> for computer vision applications, geospatial <b>data science and visualization</b>, and <b>natural language processing</b>.
+</div>
+
+<div class="cv-spacer"></div>
+
+<div>
+I have collaborated with designers, developers, engineers, and scientists while working at Amazon, Splunk, Cypress, and Stord.
 </div>
 
 <!-- <div class="cv-spacer"></div>
@@ -74,7 +61,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endfor %}
 {:/}
 
-## Industry Research Experience
+## Industry Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -82,7 +69,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% endif %}
 {% endfor %}
 
-## Academic Research Experience
+## Research Experience
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'academic' %}
@@ -98,25 +85,7 @@ My research is supported by a NASA Space Technology Research Fellowship.
 
 ## Publications
 
-### Selected: Latest & Greatest
-
-{% assign selectedBoolForBibtex = true %}
-
-{% assign selected = site.categories.papers | where: 'selected', true %}
-{% for pub in selected %}
-{% include cv/publication.html pub=pub %}
-{% endfor %}
-
-<!-- ### All Publications -->
-
 {% assign selectedBoolForBibtex = false %}
-
-### Journal
-
-{% assign journal = site.categories.papers | where: 'type', "journal" %}
-{% for pub in journal %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
 
 ### Conference
 
@@ -125,102 +94,17 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
 {% endfor %}
 
-### Workshop
-
-{% assign workshop = site.categories.papers | where: 'type', "workshop" %}
-{% for pub in workshop %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Poster
-
-{% assign poster = site.categories.papers | where: 'type', "poster" %}
-{% for pub in poster %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Demo
-
-{% assign demo = site.categories.papers | where: 'type', "demo" %}
-{% for pub in demo %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-### Miscellaneous
-
-{% assign preprint = site.categories.papers | where: 'type', "misc" %}
-{% for pub in preprint %}
-{% include cv/publication.html pub=pub selectedBoolForBibtex=selectedBoolForBibtex %}
-{% endfor %}
-
-## Talks
-
-{% assign talktitles = site.data.talks | group_by:"title" %}
-{% for title in talktitles %}
-{% include cv/talk.html talk=title %}
-{% endfor %}
-
-## Press
-
-{% for press in site.data.press %}
-{% include cv/press.html press=press %}
-{% endfor %}
-
-## Teaching
-
-{% for teach in site.data.teaching %}
-{% include cv/teaching.html teach=teach %}
-{% endfor %}
-
-## Mentoring
-
-{::nomarkdown}
-{% for mentee in site.data.mentoring %}
-{% include cv/mentee.html mentee=mentee %}
-{% endfor %}
-{:/}
-
-## Grants and Funding
-
-{% for fund in site.data.funding %}
-{% include cv/fund.html fund=fund %}
-{% endfor %}
-
-## Interactive Articles
-
-{% for article in site.data.articles %}
-{% unless article.feature-only %}
-{% include cv/article.html article=article %}
-{% endunless %}
-{% endfor %}
-
-
-<!-- ## Technology Skills
+## Technology Skills
 
 {% for skill in site.data.skills %}
 {% include cv/skill.html skill=skill %}
-{% endfor %} -->
+{% endfor %}
 
 ## Service
-
-<div class="cv-service-title"><b>Organizer</b></div>
-{% for venue in site.data.organizer %}
-{% include cv/venue.html venue=venue %}
-{% endfor %}
-
-<div class="cv-service-title"><b>Program Commitee</b></div>
-{% for venue in site.data.pc %}
-{% include cv/venue.html venue=venue %}
-{% endfor %}
 
 <div class="cv-service-title"><b>Reviewer</b></div>
 {% for venue in site.data.reviewer %}
 {% include cv/venue.html venue=venue %}
-{% endfor %}
-
-<div class="cv-service-title"><b>Institutional</b></div>
-{% for institution in site.data.institutional %}
-{% include cv/institutional.html institution=institution %}
 {% endfor %}
 
 <div class="cv-service-title"><b>Member</b></div>
@@ -228,9 +112,9 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/member.html member=member %}
 {% endfor %}
 
-## Design
+## Projects
 
-{% for design in site.data.designs %}
+{% for design in site.data.projects %}
 {% include cv/design.html design=design %}
 {% endfor %}
 
@@ -240,25 +124,6 @@ My research is supported by a NASA Space Technology Research Fellowship.
 {% include cv/reference.html reference=reference %}
 {% endfor %}
 
-<!-- 
-## Contact
-
-David Munechika  
-`fredhohman@gatech.edu`  
-CODA Tech Square  
-Georgia Tech  
-756 W Peachtree St NW  
-Atlanta, GA 30308
-<span style="background: linear-gradient(0deg, #34495e, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; display: block">
-—  
-USA  
-Earth  
-Solar System  
-Milky Way  
-Local Group  
-Universe  
-</span> -->
-
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 
@@ -267,17 +132,8 @@ Universe
 [cse]: http://cse.gatech.edu "GT Computational Science and Engineering"
 [coc]: http://www.cc.gatech.edu "GT College of Computing"
 
-[fred]: http://fredhohman.com "David Munechika"
+[david]: http://davidmunechika.com "David Munechika"
 [polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[alex]: http://va.gatech.edu/endert/ "Alex Endert"
 
-[jpl]: https://www.jpl.nasa.gov/ "NASA Jet Propulsion Lab"
-[hi]: https://www.hi.jpl.nasa.gov/ "Human Interfaces Group at NASA JPL"
-[pnnl]: https://www.pnnl.gov/ "Pacific Northwest National Laboratory"
-[dsa]: http://www.pnnl.gov/nationalsecurity/technical/capabilities/computing/data_sciences.stm "Data Sciences and Analytics Group at PNNL"
-[msr]: https://www.microsoft.com/en-us/research/ "Microsoft Research"
-[msr-hci]: https://www.microsoft.com/en-us/research/group/human-computer-interaction/ "HCI@MSR"
-
-[twitter]: https:/www.twitter.com/fredhohman "@fredhohman"
-[github]: https:/www.github.com/fredhohman "github.com/fredhohman"
-[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"
+[twitter]: https:/www.twitter.com/davidmunechika "@davidmunechika"
+[github]: https:/www.github.com/davidmunechika "github.com/davidmunechika"
