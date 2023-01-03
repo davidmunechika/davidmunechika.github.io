@@ -20,7 +20,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
-		I have collaborated with designers, developers, engineers, and scientists while working at <img class="intro-logo" style="width: 19px; padding-bottom: 5px;" src="/images/amazon.svg"> Amazon, <img class="intro-logo" style="width: 18px; padding-bottom: 3px;" src="/images/splunk.png"> Splunk, <img class="intro-logo" style="width: 24px" src="/images/cypress.png"> Cypress, and <img class="intro-logo" style="width: 24px;" src="/images/stord.png"> Stord.
+		I have collaborated with designers, developers, engineers, and scientists while working at <img class="intro-logo" style="width: 18px; padding-bottom: 5px;" src="/images/amazon.svg"> Amazon, <img class="intro-logo" style="width: 18px; padding-bottom: 5px;" src="/images/splunk.png"> Splunk, <img class="intro-logo" style="width: 24px; padding-bottom: 5px" src="/images/cypress.png"> Cypress, and <img class="intro-logo" style="width: 20px; padding-bottom: 5px" src="/images/stord.png"> Stord.
 	</div>
 </div>
 
