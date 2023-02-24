@@ -1,11 +1,11 @@
-- institution: Splunk
-  location: "San Jose, CA"
+- institution: Apple
+  location: "Cupertino, CA"
   position: Software Engienering Intern
-  group: "AWS Spend"
+  group: "Proactive ML"
   year: "Present — May 2023"
-  description: "Splunk is the data platform that powers enterprise observability, unified security and limitless custom applications in hybrid environments."
-  institution-url: https://www.splunk.com/
-  group-url: https://www.splunk.com/
+  description: "TBD"
+  institution-url: https://www.apple.com/
+  group-url: https://www.apple.com/
   type: industry
 
 - institution: Amazon

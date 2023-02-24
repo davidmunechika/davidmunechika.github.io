@@ -23,7 +23,7 @@ I have strong proficiencies in both object-oriented and functional programming l
 <div class="cv-spacer"></div>
 
 <div>
-I have collaborated with designers, developers, engineers, and scientists while working at Amazon, Splunk, Cypress, and Stord.
+I have collaborated with designers, developers, engineers, and scientists while working at Apple, Amazon, Cypress, and Stord.
 </div>
 
 <!-- <div class="cv-spacer"></div>
