@@ -11,14 +11,14 @@ authors:
   - Haoyang Yang
   - Benjamin Hoover
   - Duen Horng (Polo) Chau
-venue: arXiv Preprints
-venue-shorthand: arXiv
+venue: ACL 2023
+venue-shorthand: ACL
 year: 2022
 url: https://huggingface.co/datasets/poloclub/diffusiondb
 pdf: https://arxiv.org/abs/2210.14896
 code: https://github.com/poloclub/diffusiondb
 award: "#1 Trending Dataset, #2 Most Liked Dataset on HuggingFace"
-highlight: "500+ stars on Github"
+highlight: "700+ stars on Github"
 selected: true
 type: conference
 figure: /images/diffusiondb.png
