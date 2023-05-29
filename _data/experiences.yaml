@@ -1,9 +1,11 @@
 - institution: Apple
   location: "Cupertino, CA"
-  position: Software Engienering Intern
+  position: Software Engineering Intern
   group: "Proactive ML"
   year: "Present — May 2023"
-  description: "TBD"
+  mentors:
+    - Markus Berget
+  description: "Maintaining and developing core on-device machine learning models and user-facing features on iOS."
   institution-url: https://www.apple.com/
   group-url: https://www.apple.com/
   type: industry

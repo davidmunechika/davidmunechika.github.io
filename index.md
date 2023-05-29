@@ -16,7 +16,7 @@ title: Home
 	</div>
 	<div style="height: 1rem"></div>
 	<div class="intro-left">
-	I have strong proficiencies in both object-oriented and functional programming languages including <b>Python, Java, JavaScript/Typescript, and Elixir</b>. I have experience building web and mobile applications as a full-stack developer in an agile environment, using various <b>web frameworks</b> (React, Node, Express, Phoenix, SwiftUI), <b>database management systems</b> (PostgreSQL, MySQL, MongoDB, Firebase), <b>cloud computing services</b> (AWS, GCP), and <b>container management systems</b> (Docker, Kubernetes). My past research experience involves <b>interactive visualization</b> for machine learning, <b>deep learning</b> for computer vision applications, geospatial <b>data science</b>, and <b>natural language processing</b>.
+	I have strong proficiencies in both object-oriented and functional programming languages including <b>Python, Java, JavaScript/Typescript, Swift, and Elixir</b>. I have experience building web and mobile applications as a full-stack developer in an agile environment, using various <b>frameworks</b> (React, Node, Express, Phoenix, SwiftUI), <b>database management systems</b> (DynamoDB, PostgreSQL, MySQL, MongoDB, Firebase), <b>cloud computing services</b> (AWS, GCP), and <b>container management systems</b> (ECS, Fargate, Docker, Kubernetes). My past research experience involves <b>interactive visualization</b> for machine learning, <b>deep learning</b> for computer vision applications, geospatial <b>data science</b>, and <b>generative AI</b>.
 	</div>
 	<div style="height: 1rem"></div>
 	<div>
