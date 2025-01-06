@@ -11,13 +11,13 @@ jsarr:
 <p id="cv-subtitle"><i>Stamps President's Scholar at Georgia Tech</i></p>
 
 <div>
-I'm a bachelor’s candidate in <b>Computer Science</b> and Stamps President's Scholar at the Georgia Institute of Technology with degree concentrations in <b>Artificial Intelligence</b> and <b>Information Internetworks</b>.
+I'm a master's candidate in <b>Computer Science</b> and Stamps President's Scholar at the Georgia Institute of Technology with a degree specialization in <b>Machine Learning</b>.
 </div>
 
 <div class="cv-spacer"></div>
 
 <div>
-I have strong proficiencies in both object-oriented and functional programming languages including <b>Java, JavaScript, Typescript, Python, and Elixir</b>. I have experience building web and mobile applications as a full-stack developer in an agile environment, using various <b>web frameworks</b> (React, Node, Express, Phoenix), <b>database management systems</b> (PostgreSQL, MySQL, MongoDB, Firebase), <b>cloud computing services</b> (AWS, GCP), and <b>container management systems</b> (Docker, Kubernetes). My past research experience involves <b>deep learning</b> for computer vision applications, geospatial <b>data science and visualization</b>, and <b>natural language processing</b>.
+I have strong proficiencies in both object-oriented and functional programming languages including <b>Java, Javascript, Typescript, Python, and Elixir</b>. I have experience building web and mobile applications as a full-stack developer in an agile environment, using various <b>web frameworks</b> (React, Node, Express, Phoenix), <b>database management systems</b> (PostgreSQL, MySQL, MongoDB, Firebase), <b>cloud computing services</b> (AWS, GCP), and <b>container management systems</b> (Docker, Kubernetes). My past research experience involves <b>deep learning</b> for computer vision applications, geospatial <b>data science and visualization</b>, and <b>natural language processing</b>.
 </div>
 
 <div class="cv-spacer"></div>
